@@ -1,3 +1,5 @@
+//Question:​ Given a matrix, find the path from top left to bottom right with the greatest product by moving only down and right.
+
 public class MatrixProduct 
 {
 	static int maxValue = 0;
@@ -5,11 +7,9 @@ public class MatrixProduct
 	{
 		int[][] matrix = new int[][]{{-1,2,3},{4,5,-6},{7,8,100}};
 		
-
 		dfs(matrix, 1, 0, 0);
 		
-		System.out.println(maxValue);	
-		
+		System.out.println(maxValue);		
 	}
 
 	public static void dfs(int[][] array, int max, int i, int j) {
