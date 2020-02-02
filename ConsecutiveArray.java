@@ -1,5 +1,5 @@
 // O(nlgn) solution
-// O(n) solution uses hashset 
+// O(n) solution uses hashset    
 class Solution {
     public int longestConsecutive(int[] nums) {
         
