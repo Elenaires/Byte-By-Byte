@@ -8,7 +8,7 @@ public class MatrixProduct
 	static int maxValue = 0;
 	public static void main(String[] args)
 	{
-		int[][] matrix = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
+		int[][] matrix = new int[][]{{-1,2,3},{4,5,-6},{7,8,9}};
 		List<Integer> list = new ArrayList<>();
 		List<Integer> result = new ArrayList<>();
 		dfs(matrix, 1, 0, 0, list, result);
