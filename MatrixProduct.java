@@ -1,4 +1,7 @@
 //Question:​ Given a matrix, find the path from top left to bottom right with the greatest product by moving only down and right.
+
+// brute force O(2^n) where n is the depth of the recursion tree
+
 import java.util.*;
 public class MatrixProduct 
 {
