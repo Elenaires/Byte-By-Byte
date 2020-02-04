@@ -3,7 +3,7 @@
 // 2nd iteration k/4 * 4n = kn
 // we repeat for logk times since we half the size each iteration
 
-public class MergeKSortedArray {
+public class MergeKSortedArrayOptimised {
     public static void main(String[] args){
         int[][] arrays = new int[][]{{1,2,10},{4,5,6},{7,8,9},{3,3,5}};
 
